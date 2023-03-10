@@ -19,17 +19,17 @@ const Contact = () => {
         {
             image: require('./res/yellow/linkedin.png'),
             alt: "Linkedin",
-            link: "https://www.linkedin.com/in/prathamesh-rawool411/"
+            link: "https://www.linkedin.com/in/karan-tiwari-26808720a/"
         },
         {
             image: require('./res/yellow/github.png'),
             alt: "Github",
-            link: "https://github.com/Prathamesh61"
+            link: "https://github.com/KaranTiwari15"
         },
         {
             image: require('./res/yellow/email.png'),
             alt: "Email",
-            link: "mailto:prathameshrawool411@gmail.com"
+            link: "mailto:karantiwari433@gmail.com"
         },
     ]
     //     [url=https://imgbb.com/][img]https://i.ibb.co/PYfBtPr/atom.png[/img][/url]
@@ -47,17 +47,17 @@ const Contact = () => {
         {
             image: require('./res/blue/linkedin.png'),
             alt: "Linkedin",
-            link: "https://www.linkedin.com/in/prathamesh-rawool411/"
+            link: "https://www.linkedin.com/in/karan-tiwari-26808720a/"
         },
         {
             image: require('./res/blue/github.png'),
             alt: "Github",
-            link: "https://github.com/Prathamesh61"
+            link: "https://github.com/KaranTiwari15"
         },
         {
             image: require('./res/blue/email.png'),
             alt: "Email",
-            link: "mailto:prathameshrawool411@gmail.com"
+            link: "mailto:karantiwari433@gmail.com"
 
         },
     ]
@@ -75,13 +75,13 @@ const Contact = () => {
                 </HStack>
             </Fade>
             <Text paddingTop={"30px"} fontSize="md" color={color} textAlign={"center"}>
-                Email : prathameshrawool411@gmail
+                Email : karantiwari433@gmail.com
             </Text>
             <Text paddingBottom={"30px"} fontSize="md" color={color} textAlign={"center"}>
-                contact no. : +91 7083039182
+                contact no. : +91 72198 45233
             </Text>
             <Text paddingBottom={"30px"} fontSize="xl" color={color} textAlign={"center"}>
-                Made By Prathamesh Rawool
+                Made By Karan Tiwari
             </Text>
         </Box>
     )
