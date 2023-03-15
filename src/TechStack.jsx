@@ -8,76 +8,43 @@ import { Fade } from 'react-reveal';
 const TechStack = () => {
     const bg = useColorModeValue('white', '#10264f')
     const color = useColorModeValue('#10264f', 'white')
-    const imagesYellow = [
+    const logos = [
         {
-            image: require('./res/yellow/java-script.png'),
+            image: require('./res/other/java-script.png'),
             alt: "Javascript"
         },
         {
-            image: require('./res/yellow/html.png'),
+            image: require('./res/other/html-5.png'),
             alt: "HTML"
         },
         {
-            image: require('./res/yellow/css-3.png'),
+            image: require('./res/other/css.png'),
             alt: "CSS"
         },
         {
-            image: require('./res/yellow/atom.png'),
-            alt: "React"
+            image: require('./res/other/oracle.png'),
+            alt: "Oracle"
         },
         {
-            image: require('./res/yellow/mongodb.png'),
-            alt: "MongoDb"
+            image: require('./res/other/java.png'),
+            alt: "java"
         },
         {
-            image: require('./res/yellow/nodejs.png'),
-            alt: "Node-js"
+            image: require('./res/other/Hibernate.png'),
+            alt: "Hibernate"
         },
         {
-            image: require('./res/yellow/redux.png'),
-            alt: "Redux"
+            image: require('./res/other/springBoot.png'),
+            alt: "SpringBoot"
         },
         {
-            image: require('./res/yellow/express.png'),
-            alt: "Express"
+            image: require('./res/other/sql-server.png'),
+            alt: "SQL"
         },
 
     ]
 
-    const imagesBlue = [
-        {
-            image: require('./res/blue/java-script.png'),
-            alt: "Javascript"
-        },
-        {
-            image: require('./res/blue/html.png'),
-            alt: "HTML"
-        },
-        {
-            image: require('./res/blue/css-3.png'),
-            alt: "CSS"
-        },
-        {
-            image: require('./res/blue/atom.png'),
-            alt: "React"
-        },
-        {
-            image: require('./res/blue/mongodb.png'),
-            alt: "MongoDb"
-        },
-        {
-            image: require('./res/blue/node-js.png'),
-            alt: "Node-js"
-        },
-        {
-            image: require('./res/blue/redux.png'),
-            alt: "Redux"
-        },
-        {
-            image: require('./res/blue/express.png'),
-            alt: "Express"
-        },
-    ]
+
     return (
         <Box paddingY={"40px"} paddingTop={"80px"} bg={bg} color={color} height={"max-content"} id="techStack">
             <Text textAlign={"center"} fontSize="3xl" color={color} paddingY={"20px"}>
@@ -93,7 +60,7 @@ const TechStack = () => {
                     gap="50px"
                     flexWrap="wrap"
                     marginY={"30px"}>
-                    {(bg === 'white' ? imagesBlue : imagesYellow).map((elem) => {
+                    {logos.map((elem) => {
                         return <Box className='hvr-pop'
                             border="3px solid " width="120px" borderRadius="15px"
                             box-shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" _hover={{ borderColor: "#3379b5" }}>

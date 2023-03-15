@@ -48,7 +48,7 @@ function Home() {
                     <SimpleGrid columns={[1, 1, 1, 2]} padding={"20px"} justifyContent={"space-between"} alignItems={"center"} gap={"20px"}>
                         {/* <Box width={"250px"} box-shadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"> */}
                         <Fade left cascade>
-                            <Img margin={"auto"} objectFit={"croped"} width={"80%"} src={require('./res/Profile.png')} alt="profile" borderRadius={"20px"} />
+                            <Img margin={"auto"} objectFit={"croped"} width={"80%"} src={require('./res/profile.png')} alt="profile" borderRadius={"20px"} />
                         </Fade>
                         {/* </Box> */}
                         <VStack width={"100%"}>
@@ -59,7 +59,7 @@ function Home() {
                                     </Text>
                                 </HStack>
                                 <Text textAlign={"center"} paddingY={"10px"} fontSize={"20px"}>Hi Everyone, I am <span style={{ color: "#3379b5" }}>Karan Tiwari</span> from <span style={{ color: "#3379b5" }}>Mumbai, Maharashtra</span>. I have completed my graduation in Bachelor of Science in Information Technology from Mumbai University, Maharashtra.</Text>
-                                <Box className='btn-grad' borderRadius={"5px"} border={"1px solid"} borderColor={color}><a href="Prathamesh-Rawool-Resume.pdf" target={"_blank"} download >Resume</a></Box>
+                                <Box className='btn-grad' borderRadius={"5px"} border={"1px solid"} borderColor={color}><a href="Karan-Tiwari-Resume.pdf" target={"_blank"} download >Resume</a></Box>
                             </Fade>
                         </VStack>
                     </SimpleGrid>

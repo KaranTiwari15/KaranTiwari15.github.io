@@ -6,127 +6,54 @@ const Skills = () => {
     const bg = useColorModeValue('white', '#10264f')
     const color = useColorModeValue('#10264f', 'white')
 
-    const frontendBlue = [
-
+    const frontend = [
         {
-            image: require('./res/blue/java-script.png'),
+            image: require('./res/other/java-script.png'),
             alt: "Javascript"
         },
         {
-            image: require('./res/blue/html.png'),
+            image: require('./res/other/html-5.png'),
             alt: "HTML"
         },
         {
-            image: require('./res/blue/css-3.png'),
+            image: require('./res/other/css.png'),
             alt: "CSS"
         },
         {
-            image: require('./res/blue/atom.png'),
-            alt: "React"
-        },
-        {
-            image: require('./res/blue/redux.png'),
-            alt: "Redux"
-        },
-        {
-            image: require('./res/blue/chakra-ui.png'),
-            alt: "Chakra UI"
-        },
-        {
-            image: require('./res/blue/typescript.png'),
+            image: require('./res/other/typescript.png'),
             alt: "TypeScript"
         },
+
+    ]
+
+
+    const backend = [
         {
-            image: require('./res/blue/material-ui.png'),
-            alt: "Material UI"
+            image: require('./res/other/oracle.png'),
+            alt: "Oracle"
+        },
+        {
+            image: require('./res/other/java.png'),
+            alt: "java"
+        },
+        {
+            image: require('./res/other/Hibernate.png'),
+            alt: "Hibernate"
+        },
+        {
+            image: require('./res/other/springBoot.png'),
+            alt: "SpringBoot"
+        },
+        {
+            image: require('./res/other/sql-server.png'),
+            alt: "SQL"
         },
     ]
 
-    const frontendYellow = [
 
+    const communication = [
         {
-            image: require('./res/yellow/java-script.png'),
-            alt: "Javascript"
-        },
-        {
-            image: require('./res/yellow/html.png'),
-            alt: "HTML"
-        },
-        {
-            image: require('./res/yellow/css-3.png'),
-            alt: "CSS"
-        },
-        {
-            image: require('./res/yellow/atom.png'),
-            alt: "React"
-        },
-        {
-            image: require('./res/yellow/redux.png'),
-            alt: "Redux"
-        },
-        {
-            image: require('./res/yellow/chakra-ui.png'),
-            alt: "Chakra UI"
-        },
-        {
-            image: require('./res/yellow/typescript.png'),
-            alt: "TypeScript"
-        },
-        {
-            image: require('./res/yellow/material-ui.png'),
-            alt: "Material UI"
-        },
-    ]
-
-    const backendBlue = [
-
-        {
-            image: require('./res/blue/node-js.png'),
-            alt: "Node.js"
-        },
-        {
-            image: require('./res/blue/mongodb.png'),
-            alt: "MongoDb"
-        },
-        {
-            image: require('./res/blue/express.png'),
-            alt: "Express"
-        },
-        {
-            image: require('./res/blue/mysql.png'),
-            alt: "MySql"
-        },
-    ]
-
-    const backendYellow = [
-        {
-            image: require('./res/yellow/mongodb.png'),
-            alt: "MongoDb"
-        },
-        {
-            image: require('./res/yellow/nodejs.png'),
-            alt: "Node.js"
-        },
-        {
-            image: require('./res/yellow/express.png'),
-            alt: "Express"
-        },
-        {
-            image: require('./res/yellow/mysql.png'),
-            alt: "MySql"
-        },
-    ]
-
-    const commnuicationsBlue = [
-        {
-            image: require('./res/blue/teamwork.png'),
-            alt: "Teamwork"
-        },
-    ]
-
-    const commnuicationsYellow = [
-        {
-            image: require('./res/yellow/teamwork.png'),
+            image: require('./res/other/partners.png'),
             alt: "Teamwork"
         },
     ]
@@ -142,7 +69,7 @@ const Skills = () => {
                         <Text bg={bg} textAlign={"center"} fontSize="2xl" color={color} paddingY={"20px"}>
                             Frontend Skills
                         </Text>
-                        {(bg === 'white' ? frontendBlue : frontendYellow).map((elem) => {
+                        {frontend.map((elem) => {
                             return <Box borderColor={bg} className='hvr-grow-shadow' alignItems={"center"} borderRadius={"10px"} gap={'20px'} display={"flex"} width={"100%"} bg={"#3379b5"} padding={"15px"} color={color} key={elem.title}> <Img width={"11%"} src={elem.image} alt={elem.alt} /> <Text fontSize={'xl'}> {elem.alt} </Text> </Box>
                         })}
                     </VStack>
@@ -152,7 +79,7 @@ const Skills = () => {
                         <Text bg={bg} textAlign={"center"} fontSize="2xl" color={color} paddingY={"20px"}>
                             Backend Skills
                         </Text>
-                        {(bg === 'white' ? backendBlue : backendYellow).map((elem) => {
+                        {backend.map((elem) => {
                             return <Box borderColor={bg} className='hvr-grow-shadow' alignItems={"center"} borderRadius={"10px"} gap={'20px'} display={"flex"} width={"100%"} bg={"#3379b5"} padding={"15px"} color={color} key={elem.title}> <Img width={"11%"} src={elem.image} alt={elem.alt} /> <Text fontSize={'xl'}> {elem.alt} </Text> </Box>
                         })}
                     </VStack>
@@ -162,8 +89,8 @@ const Skills = () => {
                         <Text bg={bg} textAlign={"center"} fontSize="2xl" color={color} paddingY={"20px"}>
                             Communications Skills
                         </Text>
-                        {(bg === 'white' ? commnuicationsBlue : commnuicationsYellow).map((elem) => {
-                            return <Box borderColor={bg} className='hvr-grow-shadow' alignItems={"center"} borderRadius={"10px"} gap={'20px'} display={"flex"} width={"100%"} bg={"#3379b5"} padding={"15px"} color={color} key={elem.title}> <Img width={"11%"} src={elem.image} alt={elem.alt} /> <Text fontSize={'xl'}> {elem.alt} </Text> </Box>
+                        {communication.map((elem) => {
+                            return <Box borderColor={bg} sYellow className='hvr-grow-shadow' alignItems={"center"} borderRadius={"10px"} gap={'20px'} display={"flex"} width={"100%"} bg={"#3379b5"} padding={"15px"} color={color} key={elem.title}> <Img width={"11%"} src={elem.image} alt={elem.alt} /> <Text fontSize={'xl'}> {elem.alt} </Text> </Box>
                         })}
                     </VStack>
                 </Fade>

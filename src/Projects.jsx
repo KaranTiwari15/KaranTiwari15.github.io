@@ -9,184 +9,62 @@ const Projects = () => {
 
     const projectsArr = [
         {
-            title: "Licious.com Clone",
-            banner: require('./res/other/Licious.png'),
-            description: "Licious is India's largest D2C Unicorn. The company operates on a farm-to-fork model, owning the entire back-end supply chain and cold chain. It has Products like Meat, seafood, ready-to-cook and ready-to-eat meals",
-            techBlue: [
+            title: "CakeShop Web Application",
+            banner: require('./res/other/cakeShop.jpeg'),
+            description: "This is E-commerce website platform where user an buy the cakes of their favourite flavours .",
+            tech: [
                 {
-                    image: require('./res/blue/atom.png'),
-                    alt: "React"
+                    image: require('./res/other/html-5.png'),
+                    alt: "HTML"
                 },
                 {
-                    image: require('./res/blue/mongodb.png'),
-                    alt: "MongoDb"
+                    image: require('./res/other/css.png'),
+                    alt: "CSS"
                 },
                 {
-                    image: require('./res/blue/node-js.png'),
-                    alt: "Node-js"
+                    image: require('./res/other/java.png'),
+                    alt: "java"
                 },
                 {
-                    image: require('./res/blue/redux.png'),
-                    alt: "Redux"
+                    image: require('./res/other/Hibernate.png'),
+                    alt: "Hibernate"
                 },
                 {
-                    image: require('./res/blue/express.png'),
-                    alt: "Express"
+                    image: require('./res/other/springBoot.png'),
+                    alt: "SpringBoot"
                 },
                 {
-                    image: require('./res/blue/chakra-ui.png'),
-                    alt: "Chakra UI"
-                },
-            ],
-            techYellow: [
-                {
-                    image: require('./res/yellow/atom.png'),
-                    alt: "React"
-                },
-                {
-                    image: require('./res/yellow/mongodb.png'),
-                    alt: "MongoDb"
-                },
-                {
-                    image: require('./res/yellow/nodejs.png'),
-                    alt: "Node-js"
-                },
-                {
-                    image: require('./res/yellow/redux.png'),
-                    alt: "Redux"
-                },
-                {
-                    image: require('./res/yellow/express.png'),
-                    alt: "Express"
-                },
-                {
-                    image: require('./res/yellow/chakra-ui.png'),
-                    alt: "Chakra UI"
+                    image: require('./res/other/sql-server.png'),
+                    alt: "SQL"
                 },
             ],
-            github: 'https://github.com/Prathamesh61/coherent-laborer-2044',
-            live: 'https://frontend-pi-lovat.vercel.app/'
+            github: 'https://github.com/KaranTiwari15/CakeshopApp',
         },
         {
-            title: "Boat-LifeStyle Clone",
-            banner: require('./res/other/Boat-banner.jpeg'),
-            description: "BoAt is an India-based consumer electronics brand established in 2015 that markets earphones, headphones stereos, travel chargers and premium rugged cables.",
-            techYellow: [{
-                image: require('./res/yellow/java-script.png'),
-                alt: "Javascript"
-            },
-            {
-                image: require('./res/yellow/html.png'),
-                alt: "HTML"
-            },
-            {
-                image: require('./res/yellow/css-3.png'),
-                alt: "CSS"
-            },],
-            techBlue: [{
-                image: require('./res/blue/java-script.png'),
-                alt: "Javascript"
-            },
-            {
-                image: require('./res/blue/html.png'),
-                alt: "HTML"
-            },
-            {
-                image: require('./res/blue/css-3.png'),
-                alt: "CSS"
-            },],
-            github: 'https://github.com/hariohmtripathi/Boat-Lifestyle-',
-            live: 'https://friendly-cajeta-33faab.netlify.app/'
-        },
-        {
-            title: "Sephora-Collection Clone",
-            banner: require('./res/other/sephora-banner.jpeg'),
-            description: "Sephora is a French multinational retailer of personal care and beauty products. Sephora offers beauty products including cosmetics, skincare, body, fragrance, and many more.",
-            techYellow: [{
-                image: require('./res/yellow/java-script.png'),
-                alt: "Javascript"
-            },
-            {
-                image: require('./res/yellow/html.png'),
-                alt: "HTML"
-            },
-            {
-                image: require('./res/yellow/css-3.png'),
-                alt: "CSS"
-            },],
-            techBlue: [{
-                image: require('./res/blue/java-script.png'),
-                alt: "Javascript"
-            },
-            {
-                image: require('./res/blue/html.png'),
-                alt: "HTML"
-            },
-            {
-                image: require('./res/blue/css-3.png'),
-                alt: "CSS"
-            },],
+            title: "Flash-Pay",
+            banner: require('./res/other/flash-pay.jpeg'),
+            description: "Flash pay is REST API services Application by which one can perform various operations like send and receive money, pay different different bills, view transaction details, add balance to wallet etc..",
+            tech: [
+                {
+                    image: require('./res/other/java.png'),
+                    alt: "java"
+                },
+                {
+                    image: require('./res/other/Hibernate.png'),
+                    alt: "Hibernate"
+                },
+                {
+                    image: require('./res/other/springBoot.png'),
+                    alt: "SpringBoot"
+                },
+                {
+                    image: require('./res/other/sql-server.png'),
+                    alt: "SQL"
+                },
+            ],
+            github: 'https://github.com/KaranTiwari15/Flash-Pay',
 
-            github: 'https://github.com/krajeet35/Project--miscreant-punishment-3547',
-            live: "https://euphonious-bubblegum-8add69.netlify.app/"
         },
-        {
-            title: "Naukri.com Clone",
-            banner: require('./res/other/naukri-banner.jpeg'),
-            description: "Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies, and job seekers in India and overseas.",
-            techBlue: [{
-                image: require('./res/blue/atom.png'),
-                alt: "React"
-            }, {
-                image: require('./res/blue/chakra-ui.png'),
-                alt: "Chakra UI"
-            },],
-            techYellow: [{
-                image: require('./res/yellow/atom.png'),
-                alt: "React"
-            }, {
-                image: require('./res/yellow/chakra-ui.png'),
-                alt: "Chakra UI"
-            },],
-            github: 'https://github.com/Prathamesh61/sick-dress-4939',
-            live: 'https://mynaukri.vercel.app/'
-        },
-        {
-            title: "TripAdvisor.com Clone",
-            banner: require('./res/other/tripAdvisor-banner.jpeg'),
-            description: "Tripadvisor, Inc. is an American online travel company that offers online hotel reservations and bookings for transportation, lodging, travel experiences, and restaurants.",
-            techBlue: [
-                {
-                    image: require('./res/blue/atom.png'),
-                    alt: "React"
-                },
-                {
-                    image: require('./res/blue/redux.png'),
-                    alt: "Redux"
-                },
-                {
-                    image: require('./res/blue/chakra-ui.png'),
-                    alt: "Chakra UI"
-                },
-            ],
-            techYellow: [
-                {
-                    image: require('./res/yellow/atom.png'),
-                    alt: "React"
-                },
-                {
-                    image: require('./res/yellow/redux.png'),
-                    alt: "Redux"
-                },
-                {
-                    image: require('./res/yellow/chakra-ui.png'),
-                    alt: "Chakra UI"
-                },
-            ],
-            github: 'https://github.com/pallu2108/sedate-toys-1304',
-            live: 'https://trip-advisor-clone.vercel.app/'
-        },
-
 
     ]
     //     [url=https://imgbb.com/][img]https://i.ibb.co/PYfBtPr/atom.png[/img][/url]
@@ -225,7 +103,7 @@ const Projects = () => {
                                 <Text fontSize={"18px"} align={"center"}>
                                     {elem.description}
                                 </Text>
-                                <Flex flexWrap={'wrap'} justifyContent={"center"} gap={"10px"} paddingY={"20px"} alignSelf={"center"}>{(bg === 'white' ? elem.techBlue : elem.techYellow).map((el) => <Img className='hvr-pop' alignSelf={"start"} width={"30px"} src={el.image} alt={el.alt} />)} </Flex>
+                                <Flex flexWrap={'wrap'} justifyContent={"center"} gap={"10px"} paddingY={"20px"} alignSelf={"center"}>{elem?.tech?.map((el) => <Img className='hvr-pop' alignSelf={"start"} width={"30px"} src={el.image} alt={el.alt} />)} </Flex>
                                 <HStack align={"end"}>
                                     <a href={elem.github} target={"_blank"} ><Button className='hvr-underline-from-center' leftIcon={<FaLink />}>Github</Button></a>
                                     <a href={elem.live} target={"_blank"} ><Button className='hvr-underline-from-center' leftIcon={<FaLink />}>Live</Button></a>
